@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @rifkykurniawan
 - 👀 I’m interested in Design and Programming
-- 🌱 I’m currently learning anything about hardware andsoftware
+- 🌱 I’m currently learning anything about Quality Assurance Software
 - 💞️ I’m looking to collaborate on some project
 - 📫 You can contact me on : rifkykurnia.rk@gmailcom
 
