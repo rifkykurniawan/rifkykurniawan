@@ -44,9 +44,19 @@
 <img src="https://skillicons.dev/icons?i=github,docker,postgres,react,nodejs,vscode" />
 </p>
 
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rifkykurniawan&show_icons=true&theme=tokyonight&count_private=true" alt="Rifky's GitHub Stats" />
+</p>
+
 ---
 
 # 🐍 Contribution Snake
+
 
 
 <p align="center">
