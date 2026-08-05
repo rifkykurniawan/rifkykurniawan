@@ -49,8 +49,6 @@
 # 🐍 Contribution Snake
 
 
-> **Requires GitHub Actions** (see setup instructions below)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/rifkykurniawan/rifkykurniawan/output/github-contribution-grid-snake.svg" />
 </p>
