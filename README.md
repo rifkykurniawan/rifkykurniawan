@@ -45,15 +45,21 @@
 </p>
 
 
+
+
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rifkykurniawan&show_icons=true&theme=tokyonight&count_private=true" alt="Rifky's GitHub Stats" />
+<p>
+  <img src="https://img.shields.io/badge/dynamic/json?color=0e75b6&label=Total%20Commits&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3Arifkykurniawan" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/dynamic/json?color=0e75b6&label=PRs%20Created&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Arifkykurniawan%2Btype%3Apr" alt="PRs Created" />
+  <img src="https://img.shields.io/badge/dynamic/json?color=0e75b6&label=Code%20Reviews&query=%24.total_count&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dreviewed-by%3Arifkykurniawan%2Btype%3Apr" alt="Code Reviews" />
 </p>
 
 ---
+
+
 
 # 🐍 Contribution Snake
 
