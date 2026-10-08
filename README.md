@@ -38,10 +38,10 @@
 </p>
 
 
-### Development & DevOps
+### Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=github,docker,postgres,react,nodejs,vscode" />
+<img src="https://skillicons.dev/icons?i=github,postgres,react,nodejs,vscode" />
 </p>
 
 
