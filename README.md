@@ -1,10 +1,6 @@
 # 👋 Hi, I'm Rifky Kurniawan
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rifkykurniawan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Quality+Assurance+Engineer;Manual+%26+Automation+Tester;Playwright+%7C+API+Testing+%7C+CI%2FCD;AI-powered+Testing+Enthusiast" />
 </p>
 
