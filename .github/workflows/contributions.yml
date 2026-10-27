@@ -1,0 +1,54 @@
+name: Update Contribution Graphic
+
+on:
+  schedule:
+    # GitHub can take up to 24h to attribute a new contribution, so refresh daily
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    # The job commits to these paths; ignoring them prevents a commit loop
+    paths-ignore:
+      - "data/**"
+      - "assets/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graphic
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Needs a classic PAT with read:user (CONTRIBUTIONS_TOKEN) and
+      # "Include private contributions on my profile" enabled, otherwise
+      # only public contributions are counted.
+      - name: Generate static contribution heatmap
+        env:
+          GH_LOGIN: ${{ github.repository_owner }}
+          CONTRIBUTIONS_TOKEN: ${{ secrets.CONTRIBUTIONS_TOKEN }}
+        run: node scripts/contributions.mjs
+
+      - name: Commit updated graphic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets
+          if git diff --staged --quiet; then
+            echo "Graphic is already up to date."
+          else
+            git commit -m "chore: update contribution graphic [skip ci]"
+            git push
+          fi
