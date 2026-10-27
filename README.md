@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Rifky Kurniawan
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Quality+Assurance+Engineer;Manual+%26+Automation+Tester;Playwright+%7C+API+Testing+%7C+CI%2FCD;AI-powered+Testing+Enthusiast" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Quality+Assurance+Engineer;Manual+%26+Automation+Tester;AI-powered+Testing+Enthusiast" />
 </p>
 
 ---
@@ -28,16 +28,10 @@
 
 <p>
 <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Playwright-45BA63?style=for-the-badge&logo=playwright&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white"/>
 <img src="https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white"/>
-</p>
-
-
-### Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=github,postgres,react,nodejs,vscode" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 </p>
 
 
